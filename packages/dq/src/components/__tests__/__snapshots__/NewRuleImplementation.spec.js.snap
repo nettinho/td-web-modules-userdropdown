@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewRuleImplementation /> matches the latest snapshot 1`] = `
+<Container
+  as={[Function]}
+  text={true}
+>
+  <Header
+    as="h2"
+  >
+    <Icon
+      as="i"
+      name="wrench"
+    />
+    <HeaderContent>
+      <FormattedMessage
+        id="ruleImplementations.actions.create"
+        values={Object {}}
+      />
+    </HeaderContent>
+  </Header>
+  <withRouter(InjectIntl(Connect(RuleImplementationForm)))
+    handleSubmit={[MockFunction]}
+  />
+</Container>
+`;

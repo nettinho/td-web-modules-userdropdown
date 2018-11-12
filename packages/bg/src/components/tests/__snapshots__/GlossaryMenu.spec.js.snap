@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlossaryMenu /> matches the latest snapshot 1`] = `
+<MenuItem
+  active={false}
+  header={true}
+  name="glossary"
+>
+  <Icon
+    as="i"
+    name="university"
+  />
+  <FormattedMessage
+    id="navigation.glossary"
+    values={Object {}}
+  />
+  <MenuMenu>
+    <MenuItem
+      active={false}
+      as={[Function]}
+      name="domains"
+      to="/domains"
+    >
+      <Icon
+        as="i"
+        name="sitemap"
+      />
+      <FormattedMessage
+        id="navigation.glossary.taxonomy"
+        values={Object {}}
+      />
+    </MenuItem>
+    <MenuItem
+      active={false}
+      as={[Function]}
+      name="concepts"
+      to="/concepts"
+    >
+      <Icon
+        as="i"
+        name="tags"
+      />
+      <FormattedMessage
+        id="navigation.glossary.concepts"
+        values={Object {}}
+      />
+    </MenuItem>
+  </MenuMenu>
+</MenuItem>
+`;

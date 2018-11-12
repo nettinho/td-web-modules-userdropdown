@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField /> matches the latest snapshot 1`] = `
+<FormTextArea
+  as={[Function]}
+  control={[Function]}
+  label="label"
+  name="name"
+  onChange={[MockFunction]}
+  required={true}
+  value="Foo"
+/>
+`;

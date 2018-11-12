@@ -1,0 +1,92 @@
+{
+  "name": "@truedat/auth",
+  "version": "2.7.12",
+  "description": "TrueDat Web Auth",
+  "sideEffects": false,
+  "jsnext:main": "dist/es/index.js",
+  "main": "dist/commonjs/index.js",
+  "module": "dist/es/index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "author": "Bluetab Solutions",
+  "license": "GPL-3.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build:cjs": "BABEL_ENV=test NODE_ENV=test babel src -d dist/commonjs",
+    "build:es": "BABEL_ENV=es NODE_ENV=es babel src -d dist/es",
+    "build:watch": "BABEL_ENV=es NODE_ENV=es babel -w src -d dist/es",
+    "clean": "rimraf dist/es dist/commonjs yarn-error.log",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "eslint": "eslint src/**",
+    "eslint:fix": "eslint --fix src/**"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.51",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.51",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0-beta.51",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-es2015": "^7.0.0-beta.51",
+    "@babel/preset-react": "^7.0.0-beta.51",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.2.0",
+    "babel-plugin-dynamic-import-node": "^2.0.0",
+    "babel-plugin-lodash": "^3.3.3",
+    "babel-plugin-transform-semantic-ui-react-imports": "https://github.com/Bluetab/babel-plugin-transform-semantic-ui-react-imports.git",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "^23.3.0",
+    "jest-localstorage-mock": "^2.2.0",
+    "redux-saga-test-plan": "^3.7.0",
+    "rimraf": "^2.6.2"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "<rootDir>/src",
+      "<rootDir>/test",
+      "../../node_modules"
+    ],
+    "moduleNameMapper": {
+      "^@truedat/core$": "<rootDir>/../../node_modules/@truedat/core/dist/commonjs/index",
+      "^@truedat/core/(.*)$": "<rootDir>/../../node_modules/@truedat/core/dist/commonjs/$1"
+    },
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/test/setup.js",
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/dist/",
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "@truedat/core": "^2.7.12",
+    "auth0-js": "^9.6.0",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.10",
+    "path-to-regexp": "^2.2.1",
+    "prop-types": "^15.6.2",
+    "query-string": "^6.2.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-intl": "^2.4.0",
+    "react-loadable": "^5.4.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "redux-saga-routines": "^2.2.5",
+    "semantic-ui-react": "^0.83.0"
+  }
+}

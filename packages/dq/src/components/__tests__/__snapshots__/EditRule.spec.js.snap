@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditRule /> matches the latest snapshot 1`] = `
+<Container
+  as={[Function]}
+  text={true}
+>
+  <Header
+    as="h2"
+  >
+    <Icon
+      as="i"
+      name="cube"
+    />
+    <HeaderContent>
+      <FormattedMessage
+        id="quality.actions.edit"
+        values={Object {}}
+      />
+    </HeaderContent>
+    <HeaderSubheader>
+      <FormattedMessage
+        id="rule.type.undefined"
+        values={Object {}}
+      />
+    </HeaderSubheader>
+  </Header>
+  <withRouter(InjectIntl(Connect(RuleForm)))
+    handleSubmit={[MockFunction]}
+    non_editable_fields={
+      Array [
+        "rule_type_id",
+      ]
+    }
+    rule={
+      Object {
+        "description": "dd",
+        "id": 1,
+        "name": "nn",
+      }
+    }
+  />
+</Container>
+`;

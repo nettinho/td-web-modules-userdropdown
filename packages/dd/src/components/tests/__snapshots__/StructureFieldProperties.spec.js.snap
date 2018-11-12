@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StructureFieldProperties /> matches the latest snapshot 1`] = `
+<List>
+  <ListItem
+    content="tp"
+    icon="font"
+  />
+  <ListItem
+    content="structure.field.optional"
+    icon="minus"
+  />
+  <ListItem
+    content="22"
+    icon="quote right"
+  />
+</List>
+`;

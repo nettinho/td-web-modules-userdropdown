@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConceptForm /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Container
+    as={[Function]}
+    text={true}
+  >
+    <Header
+      as="h2"
+    >
+      <Icon
+        as="i"
+        name="book"
+      />
+      <HeaderContent>
+        <FormattedMessage
+          id="concepts.actions.create"
+          values={Object {}}
+        />
+      </HeaderContent>
+    </Header>
+    <Form
+      as="form"
+      warning={false}
+    >
+      <InjectIntl(Connect(DomainSelector))
+        domains={
+          Array [
+            Object {
+              "id": 1,
+              "name": "Domain1",
+            },
+            Object {
+              "id": 2,
+              "name": "Domain 2",
+            },
+          ]
+        }
+        onChange={[Function]}
+      />
+      <InjectIntl(Connect(TemplateSelector))
+        onChange={[Function]}
+      />
+      <InjectIntl(Connect(ParentConceptSelector))
+        onChange={[Function]}
+        onSearchChange={[Function]}
+      />
+      <FormInput
+        as={[Function]}
+        control={[Function]}
+        label="concepts.props.name"
+        name="name"
+        onChange={[Function]}
+        required={true}
+        value=""
+      />
+      <RichTextEditor
+        label="concepts.props.description"
+        name="description"
+        onChange={[Function]}
+        required={true}
+        value={Object {}}
+      />
+      <DynamicForm
+        content={Object {}}
+        template={Object {}}
+        updatedContent={[Function]}
+      />
+      <Message
+        header="validation.header.message.error"
+        list={Array []}
+        warning={true}
+      />
+      <Button
+        as="button"
+        content={
+          <FormattedMessage
+            id="actions.create"
+            values={Object {}}
+          />
+        }
+        disabled={false}
+        onClick={[Function]}
+        primary={true}
+        role="button"
+      />
+      <Button
+        as="button"
+        content={
+          <FormattedMessage
+            id="actions.cancel"
+            values={Object {}}
+          />
+        }
+        default={true}
+        onClick={[Function]}
+        role="button"
+      />
+    </Form>
+  </Container>
+</React.Fragment>
+`;

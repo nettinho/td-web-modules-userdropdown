@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PairListField /> matches the latest snapshot 1`] = `
+<FormField
+  required={true}
+>
+  <label>
+    label
+  </label>
+  <FormGroup
+    key="0"
+    widths="equal"
+  >
+    <FormInput
+      as={[Function]}
+      control={[Function]}
+      id={0}
+      name="url_name"
+      onChange={[Function]}
+      placeholder="fields.pairlist.url.name.placeholder"
+      required={true}
+      value="Foo"
+    />
+    <FormInput
+      as={[Function]}
+      control={[Function]}
+      id={0}
+      name="url_value"
+      onChange={[Function]}
+      placeholder="fields.pairlist.url.value.placeholder"
+      required={true}
+      value="Bar"
+    />
+    <Button
+      as="button"
+      className="no_background"
+      compact={true}
+      name="delete_buttom"
+      onClick={[Function]}
+      role="button"
+    >
+      <Icon
+        as="i"
+        name="minus"
+      />
+    </Button>
+  </FormGroup>
+  <Button
+    as="button"
+    className="no_background"
+    compact={true}
+    name="add_buttom"
+    onClick={[Function]}
+    role="button"
+  >
+    <Icon
+      as="i"
+      color="green"
+      name="add"
+    />
+  </Button>
+</FormField>
+`;

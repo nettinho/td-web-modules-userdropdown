@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RuleImplementationForm /> matches the latest snapshot 1`] = `
+<Form
+  as="form"
+  onSubmit={[Function]}
+>
+  <FormInput
+    as={[Function]}
+    autoComplete="off"
+    control={[Function]}
+    label="ruleImplementation.props.name"
+    name="implementation_key"
+    onChange={[Function]}
+    placeholder="ruleImplementation.props.name.placeholder"
+    value=""
+  />
+  <FormTextArea
+    as={[Function]}
+    autoComplete="off"
+    control={[Function]}
+    label="ruleImplementation.props.description"
+    name="description"
+    onChange={[Function]}
+    placeholder="ruleImplementation.props.description.placeholder"
+    value="RuleDesc"
+  />
+  <FormInput
+    as={[Function]}
+    autoComplete="off"
+    control={[Function]}
+    label="ruleImplementation.props.system"
+    name="system"
+    onChange={[Function]}
+    placeholder="ruleImplementation.props.system.placeholder"
+    value="SYS"
+  />
+  <FormGroup
+    widths="equal"
+  >
+    <SystemParam
+      formatMessage={[Function]}
+      handleChange={[Function]}
+      key="table"
+      ruleImplementation={
+        Object {
+          "description": "RuleDesc",
+          "id": 9,
+          "implementation_key": "",
+          "name": "NameRule",
+          "system": "SYS",
+          "system_params": Object {
+            "column": "Columna",
+            "table": "Tabla",
+          },
+        }
+      }
+      type_param={
+        Object {
+          "name": "table",
+          "type": "string",
+        }
+      }
+      value={Object {}}
+    />
+    <SystemParam
+      formatMessage={[Function]}
+      handleChange={[Function]}
+      key="column"
+      ruleImplementation={
+        Object {
+          "description": "RuleDesc",
+          "id": 9,
+          "implementation_key": "",
+          "name": "NameRule",
+          "system": "SYS",
+          "system_params": Object {
+            "column": "Columna",
+            "table": "Tabla",
+          },
+        }
+      }
+      type_param={
+        Object {
+          "name": "column",
+          "type": "string",
+        }
+      }
+      value={Object {}}
+    />
+  </FormGroup>
+  <Button
+    as="button"
+    content="actions.save"
+    disabled={true}
+    loading={false}
+    primary={true}
+    role="button"
+    type="submit"
+  />
+  <Button
+    as="button"
+    content="actions.cancel"
+    onClick={[Function]}
+    role="button"
+  />
+</Form>
+`;

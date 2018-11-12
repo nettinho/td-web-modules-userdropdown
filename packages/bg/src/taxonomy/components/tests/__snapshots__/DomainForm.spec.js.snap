@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DomainForm /> matches the latest snapshot 1`] = `
+<Form
+  as="form"
+  onSubmit={[Function]}
+>
+  <FormInput
+    as={[Function]}
+    autoComplete="off"
+    control={[Function]}
+    label="domain.props.name"
+    name="name"
+    onChange={[Function]}
+    placeholder="domain.props.name.placeholder"
+    required={true}
+    value="nn"
+  />
+  <FormDropdown
+    additionLabel={
+      <i
+        style={
+          Object {
+            "color": "red",
+          }
+        }
+      >
+        New Domain Type: 
+      </i>
+    }
+    allowAdditions={true}
+    as={[Function]}
+    basic={true}
+    control={[Function]}
+    label="domain.props.type"
+    name="type"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "key": 0,
+          "text": "",
+          "value": "",
+        },
+      ]
+    }
+    placeholder="domain.props.type.placeholder"
+    search={true}
+    selection={true}
+    value=""
+  />
+  <FormTextArea
+    as={[Function]}
+    autoComplete="off"
+    control={[Function]}
+    label="domain.props.description"
+    name="description"
+    onChange={[Function]}
+    placeholder="domain.props.description.placeholder"
+    required={true}
+    value="dd"
+  />
+  <Button
+    as="button"
+    content="actions.save"
+    disabled={true}
+    loading={false}
+    primary={true}
+    role="button"
+    type="submit"
+  />
+  <Button
+    as="button"
+    content="actions.cancel"
+    onClick={[Function]}
+    role="button"
+  />
+</Form>
+`;

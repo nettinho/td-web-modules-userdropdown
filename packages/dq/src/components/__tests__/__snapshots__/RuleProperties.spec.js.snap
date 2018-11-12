@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RuleProperties /> matches the latest snapshot 1`] = `
+<List
+  relaxed={true}
+  size="big"
+>
+  <Label
+    color="grey"
+  >
+    <FormattedMessage
+      id="rule.props.active.undefined"
+      values={Object {}}
+    />
+  </Label>
+  <Header
+    as="h3"
+  >
+    <FormattedMessage
+      id="concepts.props.description"
+      values={Object {}}
+    />
+  </Header>
+  desc1
+  <InjectIntl(Connect(RuleRange))
+    goal={10}
+    minimum={1}
+  />
+  <ListItem>
+    <ListHeader>
+      <FormattedMessage
+        id="quality.business_concept"
+        values={Object {}}
+      />
+    </ListHeader>
+  </ListItem>
+  <ListItem>
+    <ListHeader>
+      <FormattedMessage
+        id="quality.tags"
+        values={Object {}}
+      />
+    </ListHeader>
+  </ListItem>
+  <ListItem>
+    <ListHeader>
+      <FormattedMessage
+        id="rule.props.principle"
+        values={Object {}}
+      />
+    </ListHeader>
+    <ListDescription>
+      precision
+    </ListDescription>
+  </ListItem>
+  <ListItem>
+    <ListHeader>
+      <FormattedMessage
+        id="quality.type"
+        values={Object {}}
+      />
+    </ListHeader>
+    <ListDescription>
+      <FormattedMessage
+        id="rule.type.type1"
+        values={Object {}}
+      />
+      <List />
+    </ListDescription>
+  </ListItem>
+</List>
+`;

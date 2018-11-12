@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DomainActions /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Responsive
+    as={Symbol(react.fragment)}
+    getWidth={[Function]}
+    maxWidth={1160}
+  >
+    <ActionDropdown
+      domainActions={
+        Object {
+          "create": [MockFunction],
+          "delete": [MockFunction],
+        }
+      }
+      formatMessage={[Function]}
+      handleConfirm={[Function]}
+      id={3}
+    />
+  </Responsive>
+  <Responsive
+    as={Symbol(react.fragment)}
+    getWidth={[Function]}
+    minWidth={1160}
+  >
+    <ActionButtons
+      domainActions={
+        Object {
+          "create": [MockFunction],
+          "delete": [MockFunction],
+        }
+      }
+      formatMessage={[Function]}
+      handleConfirm={[Function]}
+      id={3}
+    />
+  </Responsive>
+</React.Fragment>
+`;

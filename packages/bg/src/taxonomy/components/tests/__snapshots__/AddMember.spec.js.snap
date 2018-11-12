@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddMember /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <InjectIntl(Connect(DomainCrumbs)) />
+  <Container
+    as={[Function]}
+    text={true}
+  >
+    <Header
+      as="h2"
+    >
+      <Icon
+        as="i"
+        name="id card outline"
+      />
+      <HeaderContent>
+        <FormattedMessage
+          id="domain.actions.add_member"
+          values={Object {}}
+        />
+      </HeaderContent>
+    </Header>
+    <withRouter(InjectIntl(Connect(AddMemberForm))) />
+  </Container>
+</React.Fragment>
+`;

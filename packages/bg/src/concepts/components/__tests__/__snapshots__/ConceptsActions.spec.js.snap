@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConceptsActions /> matches the latest snapshot 1`] = `
+<div>
+  <Connect(Component) />
+  <Button
+    as={[Function]}
+    content={
+      <FormattedMessage
+        id="concepts.actions.create"
+        values={Object {}}
+      />
+    }
+    role="button"
+    secondary={true}
+    style={
+      Object {
+        "float": "right",
+      }
+    }
+    to="/url/to/create/concept"
+  />
+  <Button
+    as="button"
+    content={
+      <FormattedMessage
+        id="concepts.actions.download"
+        values={Object {}}
+      />
+    }
+    onClick={[Function]}
+    role="button"
+    secondary={true}
+    style={
+      Object {
+        "float": "right",
+      }
+    }
+  />
+</div>
+`;

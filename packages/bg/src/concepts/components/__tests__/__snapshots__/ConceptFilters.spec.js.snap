@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConceptFilters /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Dropdown
+    additionLabel="Add "
+    additionPosition="top"
+    button={true}
+    className="icon"
+    closeOnBlur={true}
+    deburr={false}
+    floating={true}
+    icon="filter"
+    labeled={true}
+    minCharacters={1}
+    noResultsMessage="No results found."
+    onOpen={[Function]}
+    openOnFocus={true}
+    renderLabel={[Function]}
+    scrolling={true}
+    searchInput="text"
+    selectOnBlur={true}
+    selectOnNavigation={true}
+    text="concepts.filters"
+    upward={false}
+    wrapSelection={true}
+  >
+    <DropdownMenu>
+      <DropdownItem>
+        <em>
+          <FormattedMessage
+            defaultMessage="(reset filters)"
+            id="concepts.filters.reset"
+            values={Object {}}
+          />
+        </em>
+      </DropdownItem>
+    </DropdownMenu>
+  </Dropdown>
+</React.Fragment>
+`;

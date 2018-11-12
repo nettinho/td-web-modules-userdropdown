@@ -1,0 +1,15 @@
+{
+  "lerna": "2.11.0",
+  "packages": [
+    "packages/auth",
+    "packages/bg",
+    "packages/core",
+    "packages/dd",
+    "packages/df",
+    "packages/dl",
+    "packages/dq"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "2.7.12"
+}

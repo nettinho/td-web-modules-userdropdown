@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DomainsTabs /> matches the latest snapshot 1`] = `
+<Menu
+  attached="top"
+  pointing={true}
+  secondary={true}
+  tabular={true}
+>
+  <MenuItem
+    active={true}
+    as={[Function]}
+    key="0"
+    name="tabs.domains"
+    to="/domains"
+  />
+</Menu>
+`;

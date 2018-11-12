@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StructureProperties /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Connect(StructureForm) />
+  <LabelGroup>
+    <Label
+      as="a"
+      title="structure.ou"
+    >
+      <Icon
+        as="i"
+        name="sitemap"
+      />
+      structure.ou
+      : 
+      sin asignar
+    </Label>
+    <Label
+      as="a"
+      title="structure.system"
+    >
+      <Icon
+        as="i"
+        name="database"
+      />
+      structure.system
+      : 
+      sys
+    </Label>
+    <Label
+      as="a"
+      title="structure.group"
+    >
+      <Icon
+        as="i"
+        name="object group"
+      />
+      structure.group
+      : 
+      gp
+    </Label>
+    <Connect(StructurePopup)>
+      <Label
+        as="a"
+        title="structure.lopd"
+      >
+        <Icon
+          as="i"
+          name="lock"
+        />
+        structure.lopd
+        : 
+      </Label>
+    </Connect(StructurePopup)>
+  </LabelGroup>
+</React.Fragment>
+`;

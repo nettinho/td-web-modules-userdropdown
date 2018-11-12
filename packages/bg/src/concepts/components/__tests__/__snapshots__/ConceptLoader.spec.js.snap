@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConceptLoader /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Dimmer
+    active={true}
+    inverted={true}
+  >
+    <Loader
+      inverted={true}
+      size="massive"
+    />
+  </Dimmer>
+  <Loading />
+  ;
+</React.Fragment>
+`;

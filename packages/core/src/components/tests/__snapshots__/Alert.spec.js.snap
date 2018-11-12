@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Alert /> matches the latest snapshot 1`] = `
+<Message
+  content="content.message.id"
+  error={true}
+  header="header.message.id"
+  icon="warning"
+  list={Array []}
+  visible={true}
+/>
+`;

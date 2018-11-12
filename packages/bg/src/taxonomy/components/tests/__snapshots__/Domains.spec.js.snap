@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Domains /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Segment>
+    <Header
+      as="h2"
+    >
+      <Icon
+        as="i"
+        circular={true}
+        name="sitemap"
+      />
+      <HeaderContent>
+        <FormattedMessage
+          id="navigation.glossary.taxonomy"
+          values={Object {}}
+        />
+        <HeaderSubheader>
+          <FormattedMessage
+            id="domains.subheader"
+            values={Object {}}
+          />
+        </HeaderSubheader>
+      </HeaderContent>
+    </Header>
+    <Segment
+      attached="bottom"
+      loading={false}
+    >
+      <InjectIntl(Connect(DomainsActions)) />
+      <Switch>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/domains"
+        />
+        <Route
+          exact={true}
+          path="/domains/new"
+        >
+          <withRouter(InjectIntl(Connect(DomainForm)))
+            handleSubmit={[MockFunction]}
+          />
+        </Route>
+      </Switch>
+    </Segment>
+  </Segment>
+</React.Fragment>
+`;

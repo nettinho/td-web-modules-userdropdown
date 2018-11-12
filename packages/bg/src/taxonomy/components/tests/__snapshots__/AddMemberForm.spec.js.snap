@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddMemberForm /> matches the latest snapshot 1`] = `
+<Form
+  as="form"
+  onSubmit={[Function]}
+>
+  <FormDropdown
+    as={[Function]}
+    basic={true}
+    control={[Function]}
+    label="domain.member"
+    name="id"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "key": 1,
+          "text": "p1",
+          "value": "p1",
+        },
+        Object {
+          "key": 2,
+          "text": "p2",
+          "value": "p2",
+        },
+      ]
+    }
+    placeholder="domain.member"
+    search={[Function]}
+    selection={true}
+    value=""
+  />
+  <FormDropdown
+    as={[Function]}
+    basic={true}
+    control={[Function]}
+    label="domain.role"
+    name="role"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "key": 1,
+          "text": "role1",
+          "value": "role1",
+        },
+        Object {
+          "key": 2,
+          "text": "role2",
+          "value": "role2",
+        },
+      ]
+    }
+    placeholder="domain.role"
+    search={true}
+    selection={true}
+    value=""
+  />
+  <Button
+    as="button"
+    disabled={true}
+    primary={true}
+    role="button"
+    type="submit"
+  >
+    domain.actions.add_member
+  </Button>
+  <Button
+    as="button"
+    onClick={[Function]}
+    role="button"
+  >
+    domain.actions.cancel
+  </Button>
+</Form>
+`;

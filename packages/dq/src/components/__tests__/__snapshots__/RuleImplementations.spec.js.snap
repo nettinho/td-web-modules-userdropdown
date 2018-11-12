@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RuleImplementations /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Table
+    as="table"
+    celled={true}
+    compact={true}
+    selectable={true}
+    striped={true}
+  >
+    <TableHeader
+      as="thead"
+    >
+      <TableRow
+        as="tr"
+        cellAs="td"
+      >
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="ruleImplementation.props.name"
+              values={Object {}}
+            />
+          }
+        />
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="quality.rule.description"
+              values={Object {}}
+            />
+          }
+        />
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="quality.rule.system"
+              values={Object {}}
+            />
+          }
+        />
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="quality.rule.type"
+              values={Object {}}
+            />
+          }
+        />
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="quality.rule.system_params"
+              values={Object {}}
+            />
+          }
+        />
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="quality.rule.quality"
+              values={Object {}}
+            />
+          }
+        />
+      </TableRow>
+    </TableHeader>
+    <TableBody
+      as="tbody"
+    >
+      <RuleImplementationRow
+        description="RuleDesc1"
+        goal={10}
+        id={9}
+        key="0"
+        minimum={1}
+        name="NameRule1"
+        system="SYS"
+        system_params={
+          Object {
+            "column": "Columna1",
+            "table": "Tabla1",
+          }
+        }
+        type="integer_values_range"
+      />
+      <RuleImplementationRow
+        description="RuleDesc2"
+        goal={10}
+        id={10}
+        key="1"
+        minimum={1}
+        name="NameRule2"
+        system="SYS"
+        system_params={
+          Object {
+            "column": "Columna2",
+            "table": "Tabla2",
+          }
+        }
+        type="integer_values_range"
+      />
+    </TableBody>
+  </Table>
+</React.Fragment>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StructureForm /> matches the latest snapshot (editing) 1`] = `
+<Form
+  as="form"
+  size="small"
+>
+  <FormGroup>
+    <FormInput
+      action={
+        Object {
+          "disabled": false,
+          "icon": "check",
+          "loading": false,
+          "onClick": [Function],
+        }
+      }
+      as={[Function]}
+      autoComplete="off"
+      control={[Function]}
+      focus={true}
+      inline={true}
+      name="description"
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      required={true}
+      value="dd"
+    />
+  </FormGroup>
+</Form>
+`;
+
+exports[`<StructureForm /> matches the latest snapshot 1`] = `
+<p
+  onClick={[Function]}
+>
+  dd
+</p>
+`;

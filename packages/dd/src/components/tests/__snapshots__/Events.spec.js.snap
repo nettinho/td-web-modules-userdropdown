@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Events /> matches the latest snapshot 1`] = `
+<Segment
+  attached="bottom"
+>
+  <Feed
+    size="small"
+  >
+    <InjectIntl(withRouter(EventRow))
+      id={1}
+      key="0"
+      payload={
+        Array [
+          Object {
+            "field": "Ou",
+            "value": 5,
+          },
+          Object {
+            "field": "id",
+            "value": 6,
+          },
+        ]
+      }
+      resource_id={2}
+      service="My invented service 1"
+    />
+    <InjectIntl(withRouter(EventRow))
+      id={2}
+      key="1"
+      payload={
+        Array [
+          Object {
+            "field": "Ou",
+            "value": 7,
+          },
+          Object {
+            "field": "id",
+            "value": 3,
+          },
+        ]
+      }
+      resource_id={2}
+      service="My invented service 2"
+    />
+  </Feed>
+</Segment>
+`;

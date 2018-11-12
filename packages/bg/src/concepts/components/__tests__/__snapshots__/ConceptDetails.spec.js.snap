@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConceptDetails /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Segment
+    attached="bottom"
+  >
+    <Header
+      as="h3"
+    >
+      <FormattedMessage
+        id="concepts.props.description"
+        values={Object {}}
+      />
+    </Header>
+    <RichTextEditor
+      readOnly={true}
+    />
+    <Connect(DynamicFormViewer)
+      fieldValues={
+        Array [
+          Array [
+            "group1",
+            Array [
+              Object {
+                "field": "Field1",
+                "value": "Value1",
+              },
+            ],
+          ],
+          Array [
+            "group2",
+            Array [
+              Object {
+                "field": "Field2",
+                "value": "Value2",
+              },
+              Object {
+                "field": "Field3",
+                "value": "Value3",
+              },
+            ],
+          ],
+        ]
+      }
+    />
+  </Segment>
+</React.Fragment>
+`;

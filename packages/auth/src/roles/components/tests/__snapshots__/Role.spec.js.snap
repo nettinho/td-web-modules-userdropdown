@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Role /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Breadcrumb>
+    <BreadcrumbSection
+      active={false}
+      as={[Function]}
+      to="/roles"
+    >
+      <FormattedMessage
+        id="navigation.admin.roles"
+        values={Object {}}
+      />
+    </BreadcrumbSection>
+    <BreadcrumbDivider
+      icon="right angle"
+    />
+    <BreadcrumbSection
+      active={true}
+    >
+      Data Steward
+    </BreadcrumbSection>
+  </Breadcrumb>
+  <Segment>
+    <Header
+      as="h2"
+    >
+      <Icon
+        as="i"
+        name="student"
+      />
+      <HeaderContent>
+        Data Steward
+        <HeaderSubheader>
+          <FormattedMessage
+            id="role.subheader"
+            values={Object {}}
+          />
+        </HeaderSubheader>
+      </HeaderContent>
+    </Header>
+    <Checkbox
+      label={
+        Object {
+          "children": <FormattedMessage
+            id="roles.default"
+            values={Object {}}
+          />,
+        }
+      }
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <InjectIntl(Connect(PermissionGroup))
+      key="0"
+      name="Group1"
+      permissions={
+        Array [
+          Object {
+            "id": 1,
+            "name": "perm1",
+          },
+        ]
+      }
+      roleId={1}
+    />
+  </Segment>
+</React.Fragment>
+`;

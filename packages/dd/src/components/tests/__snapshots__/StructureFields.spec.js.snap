@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StructureFields /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Divider
+    hidden={true}
+  />
+  <Table
+    as="table"
+    attached="bottom"
+    celled={true}
+    compact={true}
+    selectable={true}
+    striped={true}
+  >
+    <TableHeader
+      as="thead"
+    >
+      <TableRow
+        as="tr"
+        cellAs="td"
+      >
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="structure.field.name"
+              values={Object {}}
+            />
+          }
+        />
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="structure.field.type"
+              values={Object {}}
+            />
+          }
+        />
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="structure.field.precision"
+              values={Object {}}
+            />
+          }
+        />
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="structure.field.nullable"
+              values={Object {}}
+            />
+          }
+        />
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="structure.field.description"
+              values={Object {}}
+            />
+          }
+        />
+      </TableRow>
+    </TableHeader>
+    <TableBody
+      as="tbody"
+    >
+      <withRouter(InjectIntl(StructureFieldRow))
+        conceptsLinkVisible={false}
+        description="desc1"
+        id={123}
+        key="0"
+        lineageVisible={false}
+        name="field1"
+        nullable={true}
+        precision="22"
+        type="varchar"
+      />
+      <withRouter(InjectIntl(StructureFieldRow))
+        conceptsLinkVisible={false}
+        description="desc2"
+        id={122}
+        key="1"
+        lineageVisible={false}
+        name="field2"
+        nullable={true}
+        precision="22"
+        type="varchar"
+      />
+    </TableBody>
+  </Table>
+</React.Fragment>
+`;

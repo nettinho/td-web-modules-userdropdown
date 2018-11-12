@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DynamicField /> matches the latest snapshot (color_picker widget) 1`] = `
+<ColorPickerField
+  onChange={[MockFunction]}
+/>
+`;
+
+exports[`<DynamicField /> matches the latest snapshot (default widget) 1`] = `
+<StringField
+  onChange={[MockFunction]}
+/>
+`;
+
+exports[`<DynamicField /> matches the latest snapshot (default widget) with form_type 1`] = `
+<StringField
+  onChange={[MockFunction]}
+/>
+`;
+
+exports[`<DynamicField /> matches the latest snapshot (dropdown widget) 1`] = `
+<InjectIntl(DropdownField)
+  onChange={[MockFunction]}
+/>
+`;
+
+exports[`<DynamicField /> matches the latest snapshot (multiple_input widget) 1`] = `
+<InjectIntl(MultipleStringField)
+  onChange={[MockFunction]}
+/>
+`;
+
+exports[`<DynamicField /> matches the latest snapshot (pair_list widget) 1`] = `
+<InjectIntl(PairListField)
+  onChange={[MockFunction]}
+/>
+`;
+
+exports[`<DynamicField /> matches the latest snapshot (radio widget) 1`] = `
+<RadioField
+  onChange={[MockFunction]}
+/>
+`;
+
+exports[`<DynamicField /> matches the latest snapshot (textarea widget) 1`] = `
+<TextField
+  onChange={[MockFunction]}
+/>
+`;

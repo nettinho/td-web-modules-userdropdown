@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DomainMembers /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Grid
+    centered={true}
+    columns={1}
+  >
+    <GridColumn>
+      <Connect(DomainMembersActions)
+        availableActions={
+          Object {
+            "create_or_update": Object {
+              "action": [Function],
+              "icon": "add user",
+              "messageId": "domain.actions.add_member",
+              "order": 3,
+            },
+          }
+        }
+      />
+    </GridColumn>
+  </Grid>
+  <CardGroup>
+    <InjectIntl(Connect(DomainMember))
+      id={1}
+      key="0"
+      name="d1"
+    />
+    <InjectIntl(Connect(DomainMember))
+      id={2}
+      key="1"
+      name="d2"
+    />
+  </CardGroup>
+</React.Fragment>
+`;

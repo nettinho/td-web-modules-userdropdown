@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PermissionGroup /> matches the latest snapshot 1`] = `
+<Segment>
+  <Header
+    as="h4"
+    content="Taxonomy"
+  />
+  <List
+    size="small"
+  >
+    <ListItem
+      key="0"
+    >
+      <Checkbox
+        checked={true}
+        label={
+          Object {
+            "children": "permission.perm1",
+          }
+        }
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </ListItem>
+    <ListItem
+      key="1"
+    >
+      <Checkbox
+        label={
+          Object {
+            "children": "permission.perm4",
+          }
+        }
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </ListItem>
+  </List>
+</Segment>
+`;

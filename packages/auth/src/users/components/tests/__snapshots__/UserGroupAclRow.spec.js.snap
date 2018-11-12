@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserGroupAclRow /> matches the latest snapshot 1`] = `
+<TableRow
+  as="tr"
+  cellAs="td"
+>
+  <TableCell
+    as="td"
+  />
+  <TableCell
+    as="td"
+  />
+  <TableCell
+    as="td"
+  />
+</TableRow>
+`;

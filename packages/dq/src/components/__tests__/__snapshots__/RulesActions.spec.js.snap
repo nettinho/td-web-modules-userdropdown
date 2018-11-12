@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RulesActions /> matches the latest snapshot 1`] = `
+<div
+  style={
+    Object {
+      "float": "right",
+    }
+  }
+>
+  <Connect(Component) />
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StructureSummary /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Header
+    as="h2"
+  >
+    <HeaderContent>
+      s1
+      <HeaderSubheader />
+    </HeaderContent>
+  </Header>
+  <InjectIntl(Connect(StructureProperties)) />
+  <Connect(StructurePopup) />
+  <withRouter(InjectIntl(Connect(StructureTabs))) />
+</React.Fragment>
+`;

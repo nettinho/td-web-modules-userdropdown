@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StringField /> matches the latest snapshot 1`] = `
+<FormInput
+  as={[Function]}
+  control={[Function]}
+  label="label"
+  name="name"
+  onChange={[MockFunction]}
+  required={true}
+  value="Foo"
+/>
+`;

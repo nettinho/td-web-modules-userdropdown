@@ -1,0 +1,5 @@
+*.js
+components
+reducers
+sagas
+selectors

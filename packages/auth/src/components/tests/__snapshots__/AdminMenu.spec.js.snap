@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AdminMenu /> matches the latest snapshot 1`] = `
+<MenuItem
+  active={false}
+  header={true}
+  name="administration"
+>
+  <Icon
+    as="i"
+    name="setting"
+  />
+  <FormattedMessage
+    id="navigation.admin"
+    values={Object {}}
+  />
+  <MenuMenu>
+    <withRouter(Connect(UserMenuItem)) />
+    <withRouter(RolesMenuItem) />
+  </MenuMenu>
+</MenuItem>
+`;

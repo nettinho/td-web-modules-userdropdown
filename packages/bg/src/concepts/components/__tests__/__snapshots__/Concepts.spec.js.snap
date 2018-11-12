@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Concepts /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Connect(ConceptCrumbs) />
+  <Segment>
+    <Header
+      as="h2"
+    >
+      <Icon
+        as="i"
+        circular={true}
+        name="tags"
+      />
+      <HeaderContent>
+        <FormattedMessage
+          id="concepts.header"
+          values={Object {}}
+        />
+        <HeaderSubheader>
+          <FormattedMessage
+            id="concepts.subheader"
+            values={Object {}}
+          />
+        </HeaderSubheader>
+      </HeaderContent>
+    </Header>
+    <Segment
+      attached="bottom"
+    >
+      <withRouter(InjectIntl(Connect(ConceptTabs))) />
+      <Connect(ConceptsActions) />
+      <InjectIntl(Connect(ConceptsSearch)) />
+      <InjectIntl(Connect(ConceptSelectedFilters)) />
+      <InjectIntl(Connect(ConceptsLabelResults)) />
+      <withRouter(Connect(ConceptsTable)) />
+      <Connect(ConceptsPagination) />
+    </Segment>
+  </Segment>
+</React.Fragment>
+`;

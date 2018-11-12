@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QualityMenu /> matches the latest snapshot 1`] = `
+<MenuItem
+  active={false}
+  header={true}
+  name="quality"
+>
+  <Icon
+    as="i"
+    name="check"
+  />
+  <FormattedMessage
+    id="navigation.quality"
+    values={Object {}}
+  />
+  <MenuMenu>
+    <MenuItem
+      active={false}
+      as={[Function]}
+      name="quality"
+      onClick={[Function]}
+      to="/rules"
+    >
+      <FormattedMessage
+        id="navigation.quality.rules"
+        values={Object {}}
+      />
+    </MenuItem>
+  </MenuMenu>
+</MenuItem>
+`;

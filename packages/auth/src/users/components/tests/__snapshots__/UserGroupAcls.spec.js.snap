@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserGroupAcls /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <FormattedMessage
+    i={true}
+    id="user.group.acl"
+    values={Object {}}
+  />
+  <Table
+    as="table"
+    celled={true}
+    compact={true}
+    selectable={true}
+    striped={true}
+  >
+    <TableHeader
+      as="thead"
+    >
+      <TableRow
+        as="tr"
+        cellAs="td"
+      >
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="user.acl.domain"
+              values={Object {}}
+            />
+          }
+        />
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="user.acl.group"
+              values={Object {}}
+            />
+          }
+        />
+        <TableHeaderCell
+          as="th"
+          content={
+            <FormattedMessage
+              id="user.acl.role"
+              values={Object {}}
+            />
+          }
+        />
+      </TableRow>
+    </TableHeader>
+    <TableBody
+      as="tbody"
+    >
+      <withRouter(UserGroupAclRow)
+        group={
+          Object {
+            "id": 6,
+            "name": "group1",
+          }
+        }
+        key="0"
+        resource={
+          Object {
+            "id": 1,
+            "name": "resource1",
+            "type": "domain",
+          }
+        }
+        role={
+          Object {
+            "id": 2,
+            "name": "role1",
+          }
+        }
+      />
+      <withRouter(UserGroupAclRow)
+        group={
+          Object {
+            "id": 3,
+            "name": "group2",
+          }
+        }
+        key="1"
+        resource={
+          Object {
+            "id": 2,
+            "name": "resource2",
+            "type": "domain",
+          }
+        }
+        role={
+          Object {
+            "id": 3,
+            "name": "role2",
+          }
+        }
+      />
+    </TableBody>
+  </Table>
+</React.Fragment>
+`;

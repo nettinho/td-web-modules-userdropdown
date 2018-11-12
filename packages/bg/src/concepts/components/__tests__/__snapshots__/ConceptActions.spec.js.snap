@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConceptActions /> matches the latest snapshot 1`] = `
+<div
+  style={
+    Object {
+      "float": "right",
+    }
+  }
+>
+  <ConceptAction
+    action="action1"
+    doAction={[MockFunction]}
+    href="/api/action1"
+    key="action1"
+    method="POST"
+  />
+  <ConceptAction
+    action="action2"
+    doAction={[MockFunction]}
+    href="/api/action2"
+    key="action2"
+    method="GET"
+  />
+</div>
+`;

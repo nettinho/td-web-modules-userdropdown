@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GroupCards /> matches the latest snapshot 1`] = `
+<CardGroup>
+  <Card
+    href="/groups/new"
+  >
+    <CardContent
+      textAlign="center"
+    >
+      <CardHeader>
+        <FormattedMessage
+          id="groups.actions.create"
+          values={Object {}}
+        />
+      </CardHeader>
+      <CardDescription>
+        <Icon
+          as="i"
+          floated="center"
+          name="add"
+          size="massive"
+        />
+      </CardDescription>
+    </CardContent>
+  </Card>
+  <Connect(GroupCard)
+    group={
+      Object {
+        "id": 1,
+      }
+    }
+    key="0"
+  />
+  <Connect(GroupCard)
+    group={
+      Object {
+        "id": 2,
+      }
+    }
+    key="1"
+  />
+</CardGroup>
+`;

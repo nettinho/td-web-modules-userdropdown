@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Structures /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Segment>
+    <StructuresHeader />
+    <InjectIntl(Connect(StructuresSearch)) />
+    <InjectIntl(Connect(StructureSelectedFilters)) />
+    <InjectIntl(Connect(StructuresLabelResults)) />
+    <Table
+      as="table"
+      celled={true}
+      compact={true}
+      selectable={true}
+      striped={true}
+    >
+      <TableHeader
+        as="thead"
+      >
+        <TableRow
+          as="tr"
+          cellAs="td"
+        >
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="structure.name"
+                values={Object {}}
+              />
+            }
+          />
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="structure.ou"
+                values={Object {}}
+              />
+            }
+          />
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="structure.system"
+                values={Object {}}
+              />
+            }
+          />
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="structure.group"
+                values={Object {}}
+              />
+            }
+          />
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="structure.description"
+                values={Object {}}
+              />
+            }
+          />
+        </TableRow>
+      </TableHeader>
+      <TableBody
+        as="tbody"
+      >
+        <withRouter(StructureRow)
+          description="dd"
+          group="gp"
+          id={1}
+          key="0"
+          name="s1"
+          ou="org"
+          system="sys"
+        />
+      </TableBody>
+    </Table>
+    <Connect(StructuresPagination) />
+  </Segment>
+</React.Fragment>
+`;

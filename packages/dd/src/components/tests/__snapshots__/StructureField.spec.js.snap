@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StructureField /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Container
+    as={[Function]}
+    text={true}
+  >
+    <Header
+      as="h2"
+    >
+      <HeaderContent>
+        f1
+      </HeaderContent>
+    </Header>
+    <Connect(StructureFieldForm) />
+    <InjectIntl(Connect(StructureFieldProperties)) />
+  </Container>
+</React.Fragment>
+`;

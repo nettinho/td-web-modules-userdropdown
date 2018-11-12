@@ -1,0 +1,1 @@
+export { getDatalakes } from "./getDatalakes";

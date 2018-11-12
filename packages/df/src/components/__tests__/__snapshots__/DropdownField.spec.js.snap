@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownField /> matches the latest snapshot 1`] = `
+<FormField
+  required={true}
+>
+  <label>
+    label
+  </label>
+  <FormDropdown
+    as={[Function]}
+    control={[Function]}
+    fluid={true}
+    multiple={false}
+    name="name"
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "key": 0,
+          "text": "",
+          "value": "",
+        },
+        Object {
+          "key": 1,
+          "text": "",
+          "value": "",
+        },
+      ]
+    }
+    placeholder="fields.dropdown.placeholder"
+    search={true}
+    selection={true}
+    value="Foo"
+  />
+</FormField>
+`;

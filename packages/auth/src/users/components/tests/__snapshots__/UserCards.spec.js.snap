@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserCards /> matches the latest snapshot 1`] = `
+<CardGroup>
+  <Card
+    href="/users/new"
+  >
+    <CardContent
+      textAlign="center"
+    >
+      <CardHeader>
+        <FormattedMessage
+          id="users.actions.create"
+          values={Object {}}
+        />
+      </CardHeader>
+      <CardDescription>
+        <Icon
+          as="i"
+          floated="center"
+          name="add user"
+          size="massive"
+        />
+      </CardDescription>
+    </CardContent>
+  </Card>
+  <Connect(UserCard)
+    key="0"
+    user={
+      Object {
+        "id": 1,
+      }
+    }
+  />
+  <Connect(UserCard)
+    key="1"
+    user={
+      Object {
+        "id": 2,
+      }
+    }
+  />
+</CardGroup>
+`;

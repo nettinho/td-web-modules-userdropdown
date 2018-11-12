@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConceptHeader /> matches the latest snapshot 1`] = `
+<Header
+  as="h2"
+>
+  <Icon
+    as="i"
+    circular={true}
+    name="book"
+  />
+  <HeaderContent>
+    Concept1
+    <HeaderSubheader>
+      Template1
+       
+      in Domain name
+    </HeaderSubheader>
+  </HeaderContent>
+</Header>
+`;

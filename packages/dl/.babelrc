@@ -1,0 +1,14 @@
+{
+  plugins: [
+    "lodash",
+    "@babel/syntax-dynamic-import",
+    "@babel/proposal-class-properties"
+  ],
+  presets: [["@babel/env", { modules: false }], "@babel/react"],
+  env: {
+    test: {
+      presets: ["@babel/es2015", "@babel/react"],
+      plugins: ["@babel/transform-modules-commonjs", "dynamic-import-node"]
+    }
+  }
+}

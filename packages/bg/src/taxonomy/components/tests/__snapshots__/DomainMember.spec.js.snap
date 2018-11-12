@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DomainMember /> matches the latest snapshot 1`] = `
+<Card>
+  <CardContent>
+    <CardHeader>
+      <Popup
+        keepInViewPort={true}
+        key="admin"
+        on="hover"
+        position="top left"
+        trigger={
+          <Icon
+            as="i"
+          />
+        }
+      />
+    </CardHeader>
+    <CardMeta>
+      <Icon
+        as="i"
+        name="student"
+      />
+       
+      admin
+    </CardMeta>
+  </CardContent>
+</Card>
+`;

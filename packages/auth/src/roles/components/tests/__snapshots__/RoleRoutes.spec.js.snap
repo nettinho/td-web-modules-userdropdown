@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RoleRoutes /> matches the latest snapshot 1`] = `
+<Route
+  path="/roles"
+>
+  <React.Fragment>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/roles"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/roles"
+    />
+    <Switch>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/roles/new"
+      />
+      <Route
+        path="/roles/:id"
+      >
+        <React.Fragment>
+          <LoadableComponent />
+          <LoadableComponent />
+        </React.Fragment>
+      </Route>
+    </Switch>
+  </React.Fragment>
+</Route>
+`;

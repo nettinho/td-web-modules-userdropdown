@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewDomain /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <InjectIntl(Connect(DomainCrumbs))
+    actionCrumb="domains.actions.create"
+  />
+  <Container
+    as={[Function]}
+    text={true}
+  >
+    <Header
+      as="h2"
+    >
+      <Icon
+        as="i"
+        name="cube"
+      />
+      <HeaderContent>
+        <FormattedMessage
+          id="domain.actions.create"
+          values={Object {}}
+        />
+      </HeaderContent>
+    </Header>
+    <withRouter(InjectIntl(Connect(DomainForm)))
+      domain={
+        Object {
+          "parent_id": 1,
+        }
+      }
+      handleSubmit={[MockFunction]}
+    />
+  </Container>
+</React.Fragment>
+`;

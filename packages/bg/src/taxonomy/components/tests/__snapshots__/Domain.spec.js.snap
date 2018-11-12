@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Domain /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <InjectIntl(Connect(DomainCrumbs)) />
+  <Segment>
+    <Connect(DomainDetail) />
+    <withRouter(InjectIntl(Connect(DomainTabs))) />
+    <Segment
+      attached="bottom"
+    >
+      <Switch>
+        <Route
+          exact={true}
+          path="/domains/:id"
+        >
+          <React.Fragment>
+            <InjectIntl(Connect(DomainSearch)) />
+            <InjectIntl(Connect(DomainActions))
+              availableActions={
+                Object {
+                  "create": Object {
+                    "action": [Function],
+                    "icon": "cube",
+                    "messageId": "domain.actions.create",
+                    "order": 1,
+                  },
+                }
+              }
+            />
+            <InjectIntl(Connect(DomainCards)) />
+          </React.Fragment>
+        </Route>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/domains/:id/members"
+        />
+      </Switch>
+    </Segment>
+  </Segment>
+</React.Fragment>
+`;

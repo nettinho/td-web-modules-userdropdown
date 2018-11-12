@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConceptArchive /> matches the latest snapshot 1`] = `
+<Segment
+  attached="bottom"
+>
+  <Grid>
+    <GridRow>
+      <GridColumn>
+        <Table
+          as="table"
+          celled={true}
+          compact={true}
+          selectable={true}
+          striped={true}
+        >
+          <TableHeader
+            as="thead"
+          >
+            <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableHeaderCell
+                as="th"
+                content={
+                  <FormattedMessage
+                    id="concepts.props.status"
+                    values={Object {}}
+                  />
+                }
+              />
+              <TableHeaderCell
+                as="th"
+                content={
+                  <FormattedMessage
+                    id="concepts.props.version"
+                    values={Object {}}
+                  />
+                }
+              />
+              <TableHeaderCell
+                as="th"
+                content={
+                  <FormattedMessage
+                    id="concepts.props.last_change_by"
+                    values={Object {}}
+                  />
+                }
+              />
+              <TableHeaderCell
+                as="th"
+                content={
+                  <FormattedMessage
+                    id="concepts.props.last_change_at"
+                    values={Object {}}
+                  />
+                }
+              />
+            </TableRow>
+          </TableHeader>
+          <TableBody
+            as="tbody"
+          >
+            <withRouter(Connect(ConceptArchiveRow))
+              id={123}
+              key="0"
+              last_change_at="2018-06-27T07:32:53.154377Z"
+              last_change_by="maixu"
+              status="status"
+              version={1}
+            />
+          </TableBody>
+        </Table>
+      </GridColumn>
+    </GridRow>
+  </Grid>
+</Segment>
+`;

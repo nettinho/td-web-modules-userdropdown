@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DictionaryMenu /> matches the latest snapshot 1`] = `
+<MenuItem
+  active={false}
+  header={true}
+  name="dictionary"
+>
+  <Icon
+    as="i"
+    name="book"
+  />
+  <FormattedMessage
+    id="navigation.dictionary"
+    values={Object {}}
+  />
+  <MenuMenu>
+    <MenuItem
+      active={false}
+      as={[Function]}
+      name="dictionary_structure"
+      onClick={[MockFunction]}
+      to="/structures"
+    >
+      <Icon
+        as="i"
+        name="list layout"
+      />
+      <FormattedMessage
+        id="navigation.dictionary.structures"
+        values={Object {}}
+      />
+    </MenuItem>
+  </MenuMenu>
+</MenuItem>
+`;

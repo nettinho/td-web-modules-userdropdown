@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserMenuItem /> matches the latest snapshot 1`] = `
+<MenuItem
+  active={false}
+  as={[Function]}
+  name="users"
+  to="/users"
+>
+  <Icon
+    as="i"
+    name="users"
+  />
+  <FormattedMessage
+    id="navigation.admin.users"
+    values={Object {}}
+  />
+</MenuItem>
+`;

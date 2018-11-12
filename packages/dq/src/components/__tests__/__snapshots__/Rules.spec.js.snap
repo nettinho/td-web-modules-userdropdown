@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rules /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Segment>
+    <QualityHeader />
+    <RulesActions />
+    <Table
+      as="table"
+      celled={true}
+      compact={true}
+      selectable={true}
+      striped={true}
+    >
+      <TableHeader
+        as="thead"
+      >
+        <TableRow
+          as="tr"
+          cellAs="td"
+        >
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="quality.business_concept"
+                values={Object {}}
+              />
+            }
+          />
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="quality.name"
+                values={Object {}}
+              />
+            }
+          />
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="quality.description"
+                values={Object {}}
+              />
+            }
+          />
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="quality.goal"
+                values={Object {}}
+              />
+            }
+          />
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="quality.minimum"
+                values={Object {}}
+              />
+            }
+          />
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="quality.principle"
+                values={Object {}}
+              />
+            }
+          />
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="quality.type"
+                values={Object {}}
+              />
+            }
+          />
+          <TableHeaderCell
+            as="th"
+            content={
+              <FormattedMessage
+                id="quality.type_params"
+                values={Object {}}
+              />
+            }
+          />
+        </TableRow>
+      </TableHeader>
+      <TableBody
+        as="tbody"
+      >
+        <withRouter(RuleRow)
+          business_concept_id="2D2B3"
+          description="desc1"
+          goal={10}
+          id={123}
+          key="0"
+          minimum={1}
+          name="control1"
+          principle={
+            Object {
+              "name": "principle1",
+            }
+          }
+          status="status1"
+          type="type1"
+          type_params={Object {}}
+        />
+        <withRouter(RuleRow)
+          business_concept_id="2D2B4"
+          description="desc2"
+          goal={10}
+          id={122}
+          key="1"
+          minimum={1}
+          name="control2"
+          principle={
+            Object {
+              "name": "principle2",
+            }
+          }
+          status="status2"
+          type="type2"
+          type_params={Object {}}
+        />
+      </TableBody>
+    </Table>
+  </Segment>
+</React.Fragment>
+`;

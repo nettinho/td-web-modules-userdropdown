@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DomainDetail /> matches the latest snapshot 1`] = `
+<div
+  style={
+    Object {
+      "marginTop": "1em",
+    }
+  }
+>
+  <InjectIntl(Connect(DomainActions))
+    availableActions={
+      Object {
+        "deleteOption": true,
+        "update": Object {
+          "action": [Function],
+          "icon": "edit",
+          "messageId": "actions.edit",
+          "order": 2,
+        },
+      }
+    }
+  />
+  <Header
+    as="h2"
+  >
+    <Icon
+      as="i"
+      name="cube"
+    />
+    <HeaderContent>
+      name
+      <HeaderSubheader>
+        type
+      </HeaderSubheader>
+    </HeaderContent>
+  </Header>
+  <p>
+    desc
+  </p>
+</div>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateTime value='123124' /> matches the latest snapshot 1`] = `
+<FormattedDate
+  day="2-digit"
+  hour="2-digit"
+  hourCycle="h23"
+  minute="2-digit"
+  month="short"
+  second="2-digit"
+  value={2018-06-27T07:32:53.154Z}
+  year="numeric"
+/>
+`;

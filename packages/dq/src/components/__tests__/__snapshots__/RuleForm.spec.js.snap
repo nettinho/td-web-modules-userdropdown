@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RuleForm /> matches the latest snapshot 1`] = `
+<Form
+  as="form"
+  onSubmit={[Function]}
+>
+  <FormInput
+    as={[Function]}
+    autoComplete="off"
+    control={[Function]}
+    label="rule.props.name"
+    name="name"
+    onChange={[Function]}
+    placeholder="rule.props.name.placeholder"
+    required={true}
+    value="control1"
+  />
+  <FormTextArea
+    as={[Function]}
+    autoComplete="off"
+    control={[Function]}
+    label="rule.props.description"
+    name="description"
+    onChange={[Function]}
+    placeholder="rule.props.description.placeholder"
+    value="desc1"
+  />
+  <FormInput
+    as={[Function]}
+    autoComplete="off"
+    control={[Function]}
+    label="rule.props.goal"
+    name="goal"
+    onChange={[Function]}
+    placeholder="rule.props.goal.placeholder"
+    value={10}
+  />
+  <FormInput
+    as={[Function]}
+    autoComplete="off"
+    control={[Function]}
+    label="rule.props.minimum"
+    name="minimum"
+    onChange={[Function]}
+    placeholder="rule.props.minimum.placeholder"
+    value={1}
+  />
+  <FormDropdown
+    allowAdditions={true}
+    as={[Function]}
+    basic={true}
+    control={[Function]}
+    label="rule.props.tags"
+    multiple={true}
+    name="tags"
+    onAddItem={[Function]}
+    onChange={[Function]}
+    options={Array []}
+    placeholder="rule.props.tags.placeholder"
+    search={true}
+    selection={true}
+    value={Array []}
+  />
+  <FormDropdown
+    as={[Function]}
+    basic={true}
+    control={[Function]}
+    label="rule.props.principle"
+    name="principle"
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "key": "1",
+          "text": "rule.props.principle.completeness",
+          "value": "rule.props.principle.completeness",
+        },
+        Object {
+          "key": "2",
+          "text": "rule.props.principle.validity",
+          "value": "rule.props.principle.validity",
+        },
+        Object {
+          "key": "3",
+          "text": "rule.props.principle.integrity",
+          "value": "rule.props.principle.integrity",
+        },
+        Object {
+          "key": "4",
+          "text": "rule.props.principle.consistency",
+          "value": "rule.props.principle.consistency",
+        },
+        Object {
+          "key": "5",
+          "text": "rule.props.principle.accessibility",
+          "value": "rule.props.principle.accessibility",
+        },
+        Object {
+          "key": "6",
+          "text": "rule.props.principle.precision",
+          "value": "rule.props.principle.precision",
+        },
+      ]
+    }
+    placeholder="rule.props.principle.placeholder"
+    search={true}
+    selection={true}
+    value="principle1"
+  />
+  <FormDropdown
+    allowAdditions={true}
+    as={[Function]}
+    basic={true}
+    control={[Function]}
+    label="rule.props.type"
+    name="type"
+    onAddItem={[Function]}
+    onChange={[Function]}
+    options={
+      Array [
+        Object {
+          "key": 10,
+          "text": "rule.type.max_value",
+          "value": 10,
+        },
+        Object {
+          "key": 11,
+          "text": "rule.type.min_value",
+          "value": 11,
+        },
+      ]
+    }
+    placeholder="rule.props.type.placeholder"
+    search={true}
+    selection={true}
+    value=""
+  />
+  <FormField>
+    <Radio
+      checked={false}
+      label="rule.props.active"
+      name="active"
+      onChange={[Function]}
+      toggle={true}
+      type="radio"
+    />
+  </FormField>
+  <Button
+    as="button"
+    content="actions.save"
+    disabled={true}
+    loading={false}
+    primary={true}
+    role="button"
+    type="submit"
+  />
+  <Button
+    as="button"
+    content="actions.cancel"
+    onClick={[Function]}
+    role="button"
+  />
+</Form>
+`;

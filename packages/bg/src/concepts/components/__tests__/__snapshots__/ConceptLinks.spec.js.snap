@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConceptLinks /> matches the latest snapshot (empty) 1`] = `
+<Segment
+  attached="bottom"
+>
+  <Grid>
+    <GridRow>
+      <GridColumn>
+        <Connect(ConceptLinkActions) />
+      </GridColumn>
+    </GridRow>
+    <GridRow>
+      <GridColumn>
+        <FormattedMessage
+          id="conceptLinks.empty"
+          values={Object {}}
+        />
+      </GridColumn>
+    </GridRow>
+  </Grid>
+</Segment>
+`;
+
+exports[`<ConceptLinks /> matches the latest snapshot (loading) 1`] = `
+<Segment
+  attached="bottom"
+>
+  <Grid>
+    <GridRow>
+      <GridColumn>
+        <Connect(ConceptLinkActions) />
+      </GridColumn>
+    </GridRow>
+    <GridRow>
+      <GridColumn />
+    </GridRow>
+  </Grid>
+</Segment>
+`;
+
+exports[`<ConceptLinks /> matches the latest snapshot (non-empty) 1`] = `
+<Segment
+  attached="bottom"
+>
+  <Grid>
+    <GridRow>
+      <GridColumn>
+        <Connect(ConceptLinkActions) />
+      </GridColumn>
+    </GridRow>
+    <GridRow>
+      <GridColumn>
+        <Table
+          as="table"
+          celled={true}
+          compact={true}
+          selectable={true}
+          striped={true}
+        >
+          <TableHeader
+            as="thead"
+          >
+            <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableHeaderCell
+                as="th"
+                content={
+                  <FormattedMessage
+                    id="conceptLink.ou"
+                    values={Object {}}
+                  />
+                }
+              />
+              <TableHeaderCell
+                as="th"
+                content={
+                  <FormattedMessage
+                    id="conceptLink.system"
+                    values={Object {}}
+                  />
+                }
+              />
+              <TableHeaderCell
+                as="th"
+                content={
+                  <FormattedMessage
+                    id="conceptLink.group"
+                    values={Object {}}
+                  />
+                }
+              />
+              <TableHeaderCell
+                as="th"
+                content={
+                  <FormattedMessage
+                    id="conceptLink.structure"
+                    values={Object {}}
+                  />
+                }
+              />
+              <TableHeaderCell
+                as="th"
+                content={
+                  <FormattedMessage
+                    id="conceptLink.field"
+                    values={Object {}}
+                  />
+                }
+              />
+              <TableHeaderCell
+                as="th"
+              />
+            </TableRow>
+          </TableHeader>
+          <TableBody
+            as="tbody"
+          >
+            <withRouter(Connect(ConceptLinkRow))
+              field={
+                Object {
+                  "field": "id",
+                  "group": "group",
+                  "ou": "ou",
+                  "structure": "structure",
+                  "system": "system",
+                }
+              }
+              id={1}
+              key="0"
+            />
+            <withRouter(Connect(ConceptLinkRow))
+              field={
+                Object {
+                  "field": "id",
+                  "group": "group",
+                  "ou": "ou",
+                  "structure": "structure",
+                  "system": "system",
+                }
+              }
+              id={2}
+              key="1"
+            />
+          </TableBody>
+        </Table>
+      </GridColumn>
+    </GridRow>
+  </Grid>
+</Segment>
+`;

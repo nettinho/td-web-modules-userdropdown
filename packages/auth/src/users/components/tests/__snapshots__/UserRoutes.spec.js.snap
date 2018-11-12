@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserRoutes /> matches the latest snapshot 1`] = `
+<Route
+  path="/users"
+>
+  <React.Fragment>
+    <Route
+      component={[Function]}
+      path="/users"
+    />
+    <Route
+      component={[Function]}
+      path="/users"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/users"
+    />
+    <Switch>
+      <Route
+        exact={true}
+        path="/users/new"
+      >
+        <React.Fragment>
+          <LoadableComponent />
+        </React.Fragment>
+      </Route>
+      <Route
+        exact={true}
+        path="/users/:id"
+      >
+        <React.Fragment>
+          <LoadableComponent />
+          <LoadableComponent />
+        </React.Fragment>
+      </Route>
+      <Route
+        exact={true}
+        path="/users/:id/edit"
+      >
+        <React.Fragment>
+          <LoadableComponent />
+          <LoadableComponent />
+        </React.Fragment>
+      </Route>
+    </Switch>
+    <Route
+      component={[Function]}
+      path="/groups"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/groups"
+    />
+    <Route
+      component={[Function]}
+      path="/groups/new"
+    />
+    <Route
+      component={[Function]}
+      path="/groups/:id/edit"
+    />
+    <Route
+      component={[Function]}
+      path="/groups/:id/edit"
+    />
+  </React.Fragment>
+</Route>
+`;

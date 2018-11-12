@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StructureOUPopup /> matches the latest snapshot 1`] = `
+<Popup
+  hoverable={true}
+  keepInViewPort={true}
+  on="hover"
+  position="bottom center"
+  trigger={
+    <h1>
+      Hello
+    </h1>
+  }
+  wide="very"
+>
+  <Grid
+    centered={true}
+    columns={1}
+    divided={true}
+  >
+    <GridRow>
+      <GridColumn>
+        <Header
+          as="h4"
+        >
+          structure.ous
+        </Header>
+        <Dropdown
+          additionLabel="Add "
+          additionPosition="top"
+          closeOnBlur={true}
+          deburr={false}
+          icon="dropdown"
+          minCharacters={1}
+          noResultsMessage="No results found."
+          onChange={[Function]}
+          openOnFocus={true}
+          options={
+            Array [
+              Object {
+                "id": 1,
+                "name": "domain 1",
+              },
+            ]
+          }
+          placeholder="domain.selector.placeholder"
+          renderLabel={[Function]}
+          searchInput="text"
+          selectOnBlur={true}
+          selectOnNavigation={true}
+          value="xxx"
+          wrapSelection={true}
+        />
+      </GridColumn>
+    </GridRow>
+  </Grid>
+</Popup>
+`;

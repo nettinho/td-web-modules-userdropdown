@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GroupCard /> matches the latest snapshot 1`] = `
+<Card
+  key="1"
+>
+  <CardContent>
+    <CardHeader>
+      <Icon
+        as="i"
+        name="group"
+      />
+       
+      administrators
+    </CardHeader>
+    <CardDescription>
+      Administrators
+    </CardDescription>
+  </CardContent>
+  <CardContent
+    extra={true}
+  >
+    <div
+      className="ui two buttons"
+    >
+      <Button
+        as={[Function]}
+        basic={true}
+        color="green"
+        content={
+          <FormattedMessage
+            id="actions.edit"
+            values={Object {}}
+          />
+        }
+        role="button"
+        to="/groups/1/edit"
+      />
+      <ConfirmModal
+        content={
+          <FormattedMessage
+            id="group.actions.delete.confirmation.content"
+            values={
+              Object {
+                "name": <i>
+                  administrators
+                </i>,
+              }
+            }
+          />
+        }
+        handleSubmit={[Function]}
+        header={
+          <FormattedMessage
+            id="group.actions.delete.confirmation.header"
+            values={Object {}}
+          />
+        }
+        icon="trash"
+        trigger={
+          <Button
+            as="button"
+            basic={true}
+            content={
+              <FormattedMessage
+                id="actions.delete"
+                values={Object {}}
+              />
+            }
+            negative={true}
+            role="button"
+          />
+        }
+      />
+    </div>
+  </CardContent>
+</Card>
+`;

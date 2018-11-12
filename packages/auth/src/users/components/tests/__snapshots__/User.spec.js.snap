@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<User /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <UserBreadcrumbs
+    name="joe"
+  />
+  <Segment>
+    <Header
+      as="h2"
+    >
+      <Icon
+        as="i"
+        circular={true}
+        name="user"
+      />
+      <HeaderContent>
+        joe
+        <HeaderSubheader>
+          <FormattedMessage
+            id="user.type.admin"
+            values={Object {}}
+          />
+        </HeaderSubheader>
+      </HeaderContent>
+    </Header>
+    Joe Bloggs
+    <br />
+    joe@bloggs.net
+    <br />
+    <br />
+    <br />
+    <br />
+    <Connect(UserAcls) />
+    <Connect(UserGroupAcls) />
+  </Segment>
+</React.Fragment>
+`;

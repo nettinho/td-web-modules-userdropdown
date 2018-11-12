@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DomainCards /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Divider
+    hidden={true}
+  />
+  <Header
+    as="h4"
+  >
+    <Icon
+      as="i"
+      name="search"
+    />
+    <HeaderContent>
+      <FormattedMessage
+        id="domains.search.results.count"
+        values={
+          Object {
+            "count": 2,
+          }
+        }
+      />
+    </HeaderContent>
+  </Header>
+  <CardGroup>
+    <Card
+      as={[Function]}
+      key="1"
+      link={true}
+      to="/domains/1"
+    >
+      <CardContent>
+        <CardHeader>
+          <Icon
+            as="i"
+            name="cube"
+          />
+          domain1
+        </CardHeader>
+        <CardMeta>
+          <span>
+            <FormattedMessage
+              id="domain"
+              values={Object {}}
+            />
+          </span>
+        </CardMeta>
+      </CardContent>
+      <CardContent />
+      <CardContent
+        extra={true}
+      >
+        <Icon
+          as="i"
+          name="cubes"
+        />
+        <FormattedMessage
+          id="domain.props.children"
+          values={
+            Object {
+              "count": undefined,
+            }
+          }
+        />
+      </CardContent>
+    </Card>
+    <Card
+      as={[Function]}
+      key="2"
+      link={true}
+      to="/domains/2"
+    >
+      <CardContent>
+        <CardHeader>
+          <Icon
+            as="i"
+            name="cube"
+          />
+          domain2
+        </CardHeader>
+        <CardMeta>
+          <span>
+            <FormattedMessage
+              id="domain"
+              values={Object {}}
+            />
+          </span>
+        </CardMeta>
+      </CardContent>
+      <CardContent />
+      <CardContent
+        extra={true}
+      >
+        <Icon
+          as="i"
+          name="cubes"
+        />
+        <FormattedMessage
+          id="domain.props.children"
+          values={
+            Object {
+              "count": undefined,
+            }
+          }
+        />
+      </CardContent>
+    </Card>
+  </CardGroup>
+</React.Fragment>
+`;

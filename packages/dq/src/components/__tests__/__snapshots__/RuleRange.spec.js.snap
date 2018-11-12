@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RuleRange /> matches the latest snapshot 1`] = `
+<ListItem>
+  <ListHeader>
+    <FormattedMessage
+      id="quality.range"
+      values={Object {}}
+    />
+  </ListHeader>
+  <ListDescription>
+    <ComponentEnhancer(Range)
+      activeDotStyle={Object {}}
+      allowCross={true}
+      className=""
+      count={1}
+      defaultValue={
+        Array [
+          0,
+          80,
+          90,
+          100,
+        ]
+      }
+      disabled={true}
+      dotStyle={Object {}}
+      dots={false}
+      handle={[Function]}
+      handleStyle={
+        Array [
+          Object {
+            "backgroundColor": "#D95C5C",
+            "borderColor": "#D95C5C",
+            "cursor": "asdasd",
+          },
+          Object {
+            "backgroundColor": "#feca03",
+            "borderColor": "#feca03",
+            "cursor": "default",
+          },
+          Object {
+            "backgroundColor": "#78be20",
+            "borderColor": "#78be20",
+            "cursor": "default",
+          },
+          Object {
+            "backgroundColor": "#78be20",
+            "borderColor": "#78be20",
+            "cursor": "default",
+          },
+        ]
+      }
+      included={true}
+      marks={
+        Object {
+          "0": Object {
+            "label": "0 %",
+            "style": Object {
+              "bottom": "",
+            },
+          },
+          "100": Object {
+            "label": "100 %",
+            "style": Object {
+              "bottom": "",
+            },
+          },
+          "80": "quality.threshold",
+          "90": Object {
+            "label": "quality.goal",
+            "style": Object {
+              "paddingTop": "0px",
+            },
+          },
+        }
+      }
+      max={100}
+      min={0}
+      onAfterChange={[Function]}
+      onBeforeChange={[Function]}
+      onChange={[Function]}
+      prefixCls="rc-slider"
+      pushable={false}
+      railStyle={
+        Object {
+          "boxShadow": "0px 1px 3px lightgrey",
+        }
+      }
+      step={1}
+      style={
+        Object {
+          "backgroundColor": "#ffffff00",
+          "margin": "25px",
+          "maxWidth": "600px",
+        }
+      }
+      tabIndex={Array []}
+      trackStyle={
+        Array [
+          Object {
+            "backgroundColor": "#D95C5C",
+          },
+          Object {
+            "backgroundColor": "#feca03",
+          },
+          Object {
+            "backgroundColor": "#78be20",
+          },
+        ]
+      }
+      vertical={false}
+    />
+    <List>
+      <ListItem>
+        <Icon
+          as="i"
+          color="yellow"
+          name="circle"
+        />
+        <ListContent>
+          <ListDescription>
+            quality.threshold: 80 %
+          </ListDescription>
+        </ListContent>
+      </ListItem>
+      <ListItem>
+        <Icon
+          as="i"
+          color="green"
+          name="circle"
+        />
+        <ListContent>
+          <ListDescription>
+            quality.goal: 90 %
+          </ListDescription>
+        </ListContent>
+      </ListItem>
+    </List>
+  </ListDescription>
+</ListItem>
+`;

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserCard /> matches the latest snapshot 1`] = `
+<Card
+  key="1"
+>
+  <CardContent>
+    <CardHeader
+      as={[Function]}
+      to="/users/1"
+    >
+      <Icon
+        as="i"
+        name="user"
+      />
+       
+      joe
+    </CardHeader>
+    <CardMeta>
+      <FormattedMessage
+        id="user.type.admin"
+        values={Object {}}
+      />
+    </CardMeta>
+    <CardDescription>
+      Joe Bloggs
+      <br />
+      joe@bloggs.net
+    </CardDescription>
+  </CardContent>
+  <CardContent
+    extra={true}
+  >
+    <div
+      className="ui two buttons"
+    >
+      <Button
+        as={[Function]}
+        basic={true}
+        color="green"
+        content={
+          <FormattedMessage
+            id="actions.edit"
+            values={Object {}}
+          />
+        }
+        role="button"
+        to="/users/1/edit"
+      />
+      <ConfirmModal
+        content={
+          <FormattedMessage
+            id="user.actions.delete.confirmation.content"
+            values={
+              Object {
+                "name": <i>
+                  joe
+                </i>,
+              }
+            }
+          />
+        }
+        handleSubmit={[Function]}
+        header={
+          <FormattedMessage
+            id="user.actions.delete.confirmation.header"
+            values={Object {}}
+          />
+        }
+        icon="trash"
+        size="small"
+        trigger={
+          <Button
+            as="button"
+            basic={true}
+            color="red"
+            content={
+              <FormattedMessage
+                id="actions.delete"
+                values={Object {}}
+              />
+            }
+            role="button"
+          />
+        }
+      />
+    </div>
+  </CardContent>
+</Card>
+`;

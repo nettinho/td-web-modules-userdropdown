@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Concept /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Connect(ConceptHeader) />
+  <withRouter(Connect(ConceptActions)) />
+  <withRouter(InjectIntl(Connect(ConceptTabs))) />
+</React.Fragment>
+`;

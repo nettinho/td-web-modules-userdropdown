@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MultipleStringField /> matches the latest snapshot 1`] = `
+<FormField
+  required={true}
+>
+  <label>
+    label
+  </label>
+  <FormDropdown
+    allowAdditions={true}
+    as={[Function]}
+    control={[Function]}
+    fluid={true}
+    multiple={true}
+    name="name"
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "key": 0,
+          "text": "",
+          "value": "",
+        },
+      ]
+    }
+    placeholder="fields.dropdown.placeholder"
+    search={true}
+    selection={true}
+    value={Array []}
+  />
+</FormField>
+`;

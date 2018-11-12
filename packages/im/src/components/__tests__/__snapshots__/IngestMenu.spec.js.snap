@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IntakeMenu /> matches the latest snapshot 1`] = `
+<MenuItem
+  active={false}
+  header={true}
+  name="intakes"
+>
+  <Icon
+    as="i"
+    name="upload"
+  />
+  <FormattedMessage
+    default="añsdjfañlskdjf"
+    id="navigation.intakes"
+    values={Object {}}
+  />
+  <MenuMenu>
+    <withRouter(Connect(EngineMenuItem)) />
+  </MenuMenu>
+</MenuItem>
+`;

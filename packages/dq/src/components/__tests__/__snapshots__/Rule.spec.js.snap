@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rule /> matches the latest snapshot 1`] = `
+<React.Fragment>
+  <Container
+    as={[Function]}
+    fluid={true}
+  >
+    <Header
+      as="h2"
+    >
+      <Icon
+        as="i"
+        circular={true}
+        name="clipboard check"
+      />
+      <HeaderContent>
+        foo
+      </HeaderContent>
+    </Header>
+    <Divider
+      hidden={true}
+    />
+    <withRouter(Connect(RuleProperties)) />
+    <Header
+      as="h3"
+    >
+      <FormattedMessage
+        id="rule.props.implementations"
+        values={Object {}}
+      />
+    </Header>
+    <InjectIntl(Connect(RuleImplementations)) />
+  </Container>
+</React.Fragment>
+`;

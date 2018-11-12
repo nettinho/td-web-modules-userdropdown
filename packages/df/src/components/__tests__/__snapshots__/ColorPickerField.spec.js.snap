@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ColorPickerField /> matches the latest snapshot 1`] = `
+<FormField
+  required={true}
+>
+  <label>
+    label
+  </label>
+  <ColorPicker
+    color={
+      Object {
+        "a": 1,
+        "h": 250,
+        "l": 0.2,
+        "s": 0.5,
+      }
+    }
+    colors={
+      Array [
+        "#B80000",
+        "#DB3E00",
+        "#FCCB00",
+        "#008B02",
+        "#006B76",
+        "#1273DE",
+        "#004DCF",
+        "#5300EB",
+        "#EB9694",
+        "#FAD0C3",
+        "#FEF3BD",
+        "#C1E1C5",
+        "#BEDADC",
+        "#C4DEF6",
+        "#BED3F3",
+        "#D4C4FB",
+      ]
+    }
+    name="color_picker"
+    onChangeComplete={[Function]}
+    triangle="top-left"
+    value="Foo"
+    width={200}
+  />
+</FormField>
+`;

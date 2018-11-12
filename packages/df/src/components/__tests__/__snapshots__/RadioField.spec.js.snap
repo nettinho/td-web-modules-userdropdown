@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioField /> matches the latest snapshot 1`] = `
+<FormField
+  required={true}
+>
+  <label>
+    label
+  </label>
+  <FormRadio
+    as={[Function]}
+    checked={true}
+    control={[Function]}
+    key="0"
+    label="Foo"
+    name="name"
+    onChange={[MockFunction]}
+    value="Foo"
+  />
+  <FormRadio
+    as={[Function]}
+    checked={false}
+    control={[Function]}
+    key="1"
+    label="Bar"
+    name="name"
+    onChange={[MockFunction]}
+    value="Bar"
+  />
+</FormField>
+`;

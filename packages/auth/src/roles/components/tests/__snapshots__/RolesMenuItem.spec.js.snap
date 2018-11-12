@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RolesMenuItem /> matches the latest snapshot 1`] = `
+<MenuItem
+  active={false}
+  as={[Function]}
+  name="roles"
+  to="/roles"
+>
+  <Icon
+    as="i"
+    name="student"
+  />
+  <FormattedMessage
+    id="navigation.admin.roles"
+    values={Object {}}
+  />
+</MenuItem>
+`;
